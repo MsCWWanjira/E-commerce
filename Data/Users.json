@@ -1,0 +1,64 @@
+{
+    "users": [
+      {
+        "id": "e49a",
+        "username": "ms wanjira",
+        "password": "12345",
+        "email": ""
+      }
+    ],
+      
+      "product1": [
+        {
+          "name": "StIves Acne Control Apricot Scrub" ,
+          "description": "Salicylic Acid Acne Medication",
+          "price": 9.99,
+          "image": "AcneC.jpg"
+        }
+      ], 
+   
+      "product2": [
+        {
+          "name": "Bondi Sands SPF 50+" ,
+          "description": "Sunscreen Lotion With Vitamin E",
+          "price": 12.99,
+          "image": "B Spf.jpg"
+        }
+      ], 
+    
+      "product3": [
+        {
+          "name": "Hemani Beard Oil" ,
+          "description": "Nourishing Oil With VItamin E",
+          "price":5.99 ,
+          "image": "Beard Oil.jpg"
+        }
+      ],
+    
+      "product4": [
+        {
+          "name": "Clinique For Men" ,
+          "description": "Wash, Scrub, Gel & Moisturizer",
+          "price":30.00,
+          "image": "C forMen.jpg"
+        }
+      ],
+  
+      "product5": [
+        {
+          "name": "Shea Butter Lip Balm" ,
+          "description": "Moisturizes With Oils And Extracts",
+          "price":5.00,
+          "image": "LipB.jpg"
+        }
+      ],
+   
+      "product6": [
+        {
+          "name": "Palmers Stretch Marks Lotion" ,
+          "description": "Massage Lotion With Vitamin E",
+          "price":15.20,
+          "image": "Palmers.jpg"
+        }
+      ] 
+    }

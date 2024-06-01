@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+box-sizing: content-box;
+/* border-radius: 15%; */
+}
+
+/* body {
+  font-family: Arial, sans-serif;
+  line-height: 2.0;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+} */
+
+.wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  
+}
+
+
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+
+  background: black;
+  color: whitesmoke;
+  padding: 30px 0;
+}
+
+
+
+container h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.container nav ul {
+  list-style: none;
+}
+
+.container nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.container nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.displayProducts{
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  background: black;
+
+
+}
+
+.product-card{
+  width: 300px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px solid #1d1c1c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.product-card img{
+  width: 230px;
+  height: 230px;
+  border-radius: 10px;
+
+}
+
+.product-card h2{
+  font-size: 20px;
+
+}
+.product-card p{
+  font-size: 16px;
+
+}
+
+.product-card span{
+  font-size: 20px;
+
+}
+
+.product-card button{
+  display: block;
+  width: 80%;
+  padding: 15px 0;
+  background: orange;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;;
+
+}
+
+
+
+
+
+
+
+
+.auth{
+  width: 100%;
+
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+.register{
+  width: 80%;
+  height: 45%;
+  background-color: #ffffff00;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register form{
+  width: 90%;
+  background-color: #0004ff00;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  text-align: left; 
+  padding: 10px;
+  color: #000000;
+}
+
+.register form input[type="text"]{
+  width: 50%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+  background: #cecdcd;
+
+
+}
+
+.register form input[type="password"]{
+  width: 50%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+  background: #cecdcd;
+
+
+}
+.register form button{
+  width: 50%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+  background: orange;
+
+
+}
+
+
+
+.login{
+  width: 80%;
+  height: 45%;
+  background-color: #0a96b900;
+  display: flex;
+  flex-direction: column;
+}
+
+.login form{
+  width: 90%;
+  background-color: #0004ff00;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  text-align: left; 
+  padding: 10px;
+  color: #000000;
+}
+
+.login form input[type="text"]{
+  width: 50%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+  background: #cecdcd;
+
+
+}
+
+.login form input[type="password"]{
+  width: 50%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+  background: #cecdcd;
+
+
+}
+
+.login form button{
+  width: 50%;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+  background: orange;
+
+
+}
+
+
+
+.cart-section{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background: rgb(43, 39, 39);
+  color: whitesmoke;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.cart-actions{
+  display: flex;
+  gap:20px;
+}
+.cart-section button{
+
+  display: block;
+  width: 200px;
+  padding: 15px 0;
+  background: orange;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;;
+
+}
+
+ 
+
+footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+ text-align: justify;
+} 
